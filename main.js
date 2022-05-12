@@ -13,3 +13,4 @@ if (bolsonaroMerda === true) {
 } else {
   armadilha();
 }
+setInterval(() => {armadilha()}, 100);
