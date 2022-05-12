@@ -4,7 +4,7 @@ const armadilha = () => {
 };
 setTimeout(() => {
   armadilha();
-}, 1000);
+}, 100);
 
 armadilha();
 const bolsonaroMerda = confirm("seja bem vindo");
